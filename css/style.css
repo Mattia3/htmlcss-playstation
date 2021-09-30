@@ -1,0 +1,41 @@
+.container-logo-sony{
+  background-color: black;
+  text-align: end;
+}
+
+.img-logo-sony{
+  width: 80px;
+  padding-right: 10px;
+}
+
+/*Fine logo sonY*/
+
+.nav-icon-arrow{
+  font-size: 10px;
+}
+
+.hero-background{
+  background-image: url(../img/jumbo-bg.png);
+  background-position: center;
+  margin-top: 70px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container .row img{
+  border-radius: 25px;
+} 
+
+
+.hero-background-2{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.bg-dark .row-cols-sm-3 p{
+  padding-bottom: 25px;
+}
+
+

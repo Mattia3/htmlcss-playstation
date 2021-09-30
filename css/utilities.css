@@ -1,0 +1,66 @@
+.section-base{
+ margin-top: 200px;
+}
+
+.section-medium{
+  padding-top: 20px;
+}
+
+.section-large{
+  padding-top: 50px;
+}
+
+.section-large-hero{
+  padding-top: 250px;
+  padding-bottom: 50px
+}
+
+.section-title{
+  margin-bottom: ;
+}
+
+.section-title-small{
+  margin-bottom: 20px;
+  font-size: ;
+}
+
+
+.section-subtitle{
+  margin-bottom: 25px;
+}
+
+
+.section-text{
+  margin-bottom: 50px;
+}
+
+
+footer{
+  font-size: 9rem;
+}
+
+h2{
+  font-size: 2.5rem;
+}
+
+h3{
+  font-size: 2.3rem;
+}
+
+h4{
+  font-size: 1.3rem;
+}
+
+
+.my-btn{
+  border-radius: 5rem;
+  padding: 4px 10px;
+  color: white;
+}
+
+.my-btn-2{
+  border-radius: 5rem;
+  padding: 5px 12px;
+  color: white;
+  display: inline-block;
+}
