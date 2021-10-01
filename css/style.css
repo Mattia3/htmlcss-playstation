@@ -22,10 +22,9 @@
   background-repeat: no-repeat;
 }
 
-.container .row img{
+.border-radius{
   border-radius: 25px;
 } 
-
 
 .hero-background-2{
   background-position: center;
@@ -37,5 +36,78 @@
 .bg-dark .row-cols-sm-3 p{
   padding-bottom: 25px;
 }
+
+.my-btn-light{
+  color: blue;
+  background-color: lightgray;
+  border-radius: 5rem;
+  padding: 5px 12px;
+  display: inline-block;
+}
+
+:root{
+  --bs-body-bg-rgb: 0, 67, 156;
+  --bs-primary-rgb: 22, 28, 59;
+  --bs-secondary-rgb: 190, 188, 187;
+  --bs-dark-rgb: 31, 31, 31;
+  --bs-info-rgb: 9, 119, 208;
+}
+
+.btn-warning{
+  background-color: #cd3d0f;
+  border-color: #cd3d0f;
+} 
+
+.btn-success{
+  background-color: #2d64e6;
+  border-color: #2d64e6;
+}
+
+.btn-success:hover{
+  background-color: #2d6de6;
+  border-color: #2d6de6;
+}
+
+.my-btn-blue{
+  color: blue;
+  background-color: rgba(217,218,220,255);
+  border-color: rgba(217,218,220,255);
+}
+
+.my-img-hover{
+  border: 2px solid white;
+  padding: 2px;
+}
+
+.my-img-hover:hover{
+  border-color: blue;
+}
+
+.my-img-component{
+  border-bottom: 2px solid white;
+}
+
+.my-img-component:active{
+  border-bottom: 2px solid blue;
+}
+
+.my-img-opacity:active{
+  opacity: 1;
+}
+
+.my-img-opacity{
+  opacity: 0.5;
+}
+
+.btn-danger:hover{
+  background-color: #000000c2;
+  border-color: #000000c2;
+}
+
+.btn-light:hover{
+  background-color: lightskyblue;
+}
+ 
+
 
 
