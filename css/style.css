@@ -77,10 +77,13 @@
 .my-img-hover{
   border: 2px solid white;
   padding: 2px;
+  transform: translate(0);
+  transition: .5s;
 }
 
 .my-img-hover:hover{
   border-color: blue;
+  transform: translateY(-10px);
 }
 
 .my-img-component{
@@ -117,10 +120,19 @@
   border: 0;
   border-radius: 0;
   justify-content: center;
+  transition: 1s;
 }
 
 .nav-link:focus + .dropdown-menu{
-  display: flex;
+  display: block;
+}
+
+.nav a:hover{
+  color: blue !important;
+ }
+
+.dropdown-item:hover{
+   background-color: white;
  }
 
 
