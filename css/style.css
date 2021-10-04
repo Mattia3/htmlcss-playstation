@@ -107,7 +107,21 @@
 .btn-light:hover{
   background-color: lightskyblue;
 }
- 
+
+
+.nav-link + .dropdown-menu {
+  left: 0;
+  top: 79px;
+  right: 0;
+  position: fixed;
+  border: 0;
+  border-radius: 0;
+  justify-content: center;
+}
+
+.nav-link:focus + .dropdown-menu{
+  display: flex;
+ }
 
 
 
